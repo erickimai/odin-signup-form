@@ -89,7 +89,7 @@ form {
   .form-row input[type='email'],
   .form-row input[type='password'] {
     background-color: #FFFFFF;
-    border: 1px solid #D6D9DC;
+    border: 1px solid #c1c2c4;
     border-radius: 3px;
     width: 100%;
     padding: 7px;
@@ -144,4 +144,17 @@ a.login:active {
 
  input:invalid {
     border-color: red;
+  }
+
+
+.form-row input[type='password']:invalid  {
+  border: 1px solid #D55C5F;
+  box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+.form-row input[type='password']:valid,
+.form-row input[type='text']:valid,
+.form-row input[type='email']:valid  {
+    border: 1px solid #7ce978;
+    box-shadow: none; /* Remove default red glow in Firefox */
   }
