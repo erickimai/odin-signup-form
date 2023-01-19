@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/89173882/213451637-442ec522-101d-4e58-bc4d-5bfed399b7f5.png)
+
+
 ### About the project
 
 Sign-Up Form is the first project for the FullStack JavaScript module on The Odin Project. 
